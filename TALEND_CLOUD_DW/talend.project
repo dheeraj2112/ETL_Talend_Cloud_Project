@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_r-6EcIueEeuxvOzesrjHhQ" label="Talend-Cloud-DW" description="This Project is Talend Cloud Demo." language="java" technicalLabel="TALEND_CLOUD_DW" author="_r-6EcYueEeuxvOzesrjHhQ" productVersion="Talend Cloud Data Management Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/dheeraj2112/TalendCloud.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
-    <migrationTask xmi:id="_r_deEIueEeuxvOzesrjHhQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  <TalendProperties:Project xmi:id="__KMfgYucEeuxvOzesrjHhQ" label="Talend-Cloud-DW" description="This Project is Talend Cloud Demo." language="java" technicalLabel="TALEND_CLOUD_DW" author="__KMfgoucEeuxvOzesrjHhQ" productVersion="Talend Cloud Data Management Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/dheeraj2112/TalendCloud.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+    <migrationTask xmi:id="__u69MIucEeuxvOzesrjHhQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
-  <TalendProperties:User xmi:id="_r-6EcYueEeuxvOzesrjHhQ" login="dheerajcs0029@trial33349.us.talend.com" firstName="DHEERAJ" lastName="PAPOLA" type="DQ"/>
+  <TalendProperties:User xmi:id="__KMfgoucEeuxvOzesrjHhQ" login="dheerajcs0029@trial33349.us.talend.com" firstName="DHEERAJ" lastName="PAPOLA" type="DQ"/>
 </xmi:XMI>
