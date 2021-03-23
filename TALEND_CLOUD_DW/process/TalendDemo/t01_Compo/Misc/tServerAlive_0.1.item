@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter contextMode="false" field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="/home/nfrancisco/Talend/Logiciels/TOS/4.0.0M3/Install/TOS-All-r37054-V4.0.0M3/workspace"/>
+    <elementParameter contextMode="false" field="DIRECTORY" name="COMP_DEFAULT_PROJECT_DIR" value="/home/nfrancisco/Talend/Logiciels/TOS/4.0.0M3/Install/TOS-All-r37054-V4.0.0M3/workspace/TalendDemoJava"/>
+    <elementParameter contextMode="false" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
+    <elementParameter contextMode="false" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter contextMode="false" field="TEXT" name="AUTHOR" value="nfrancisco@talend.com"/>
+    <elementParameter contextMode="false" field="TEXT" name="STATUS" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="NAME" value="tServerAlive"/>
+    <elementParameter contextMode="false" field="TEXT" name="VERSION" value="0.1"/>
+    <elementParameter contextMode="false" field="TEXT" name="PURPOSE" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="DESCRIPTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCREEN_OFFSET_Y" value="32"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter contextMode="false" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter contextMode="false" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter contextMode="false" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter contextMode="false" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value=""/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:27dpeJtfx2v11WMRkB+Rhy5AtKqC7RutiQFAIVQI"/>
+    <elementParameter contextMode="false" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
+    <elementParameter contextMode="false" field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="DIRECTORY" name="FILE_PATH" value="&quot;/home/nfrancisco/Talend/Logiciels/TOS/4.0.0M3/Install/TOS-All-r37054-V4.0.0M3/workspace/.metadata&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_TYPE" value="tDBOutput"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_10"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:o0Pyi/5pMK0HEuMbfHB27CYFgXiQbB/VN1WH0e+a"/>
+    <elementParameter contextMode="false" field="FILE" name="DBFILE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <routinesParameter id="_BzsnoJWBEd2-2urAiuZBEg" name="DataOperation"/>
+    <routinesParameter id="_B9YvIJWBEd2-2urAiuZBEg" name="Mathematical"/>
+    <routinesParameter id="_B9rqE5WBEd2-2urAiuZBEg" name="Numeric"/>
+    <routinesParameter id="_B9rqF5WBEd2-2urAiuZBEg" name="Relational"/>
+    <routinesParameter id="_B91bE5WBEd2-2urAiuZBEg" name="StringHandling"/>
+    <routinesParameter id="_B91bF5WBEd2-2urAiuZBEg" name="TalendDataGenerator"/>
+    <routinesParameter id="_B9-lAJWBEd2-2urAiuZBEg" name="TalendDate"/>
+    <routinesParameter id="_B9-lBJWBEd2-2urAiuZBEg" name="TalendString"/>
+    <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+  </parameters>
+  <node componentName="tServerAlive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tServerAlive_1"/>
+    <elementParameter contextMode="false" field="CHECK" name="START" value="true"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="PROTOCOL" value="PING"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="23"/>
+    <elementParameter contextMode="false" field="TEXT" name="TIMEOUT_INTERVAL" value="5"/>
+    <elementParameter contextMode="false" field="LABEL" name="NOTE" value="second(s)"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_PROXY_SERVER" value="false"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROXY_HOST" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROXY_PORT" value="&quot;23&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROXY_USER" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PROXY_PASS" value="enc:system.encryption.key.v1:pU0Zk6U0XWA0tnShCH9bmGVVpwnyt4RrlXtKC9W9"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tServerAlive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tServerAlive_2"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="PROTOCOL" value="TELNET"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="3306"/>
+    <elementParameter contextMode="false" field="TEXT" name="TIMEOUT_INTERVAL" value="5"/>
+    <elementParameter contextMode="false" field="LABEL" name="NOTE" value="second(s)"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_PROXY_SERVER" value="false"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROXY_HOST" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROXY_PORT" value="&quot;23&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROXY_USER" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PROXY_PASS" value="enc:system.encryption.key.v1:u9wjz5WZtyd+kdq0ticodkxiLbto8Mk1cjzStml0"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tMsgBox" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="0">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_1"/>
+    <elementParameter contextMode="false" field="TEXT" name="TITLE" value="&quot;Talend Open Studio&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="BUTTONS" value="0"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ICON" value="INFORMATION_MESSAGE"/>
+    <elementParameter contextMode="false" field="TEXT" name="QUESTION_TITLE" value="&quot;Window Title&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="QUESTION_LABEL" value="&quot;Question ?&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="MESSAGE" value="&quot;You are connected to internet&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tMsgBox_1"/>
+  </node>
+  <node componentName="tMsgBox" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_2"/>
+    <elementParameter contextMode="false" field="TEXT" name="TITLE" value="&quot;Talend Open Studio&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="BUTTONS" value="0"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ICON" value="INFORMATION_MESSAGE"/>
+    <elementParameter contextMode="false" field="TEXT" name="QUESTION_TITLE" value="&quot;Window Title&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="QUESTION_LABEL" value="&quot;Question ?&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="MESSAGE" value="&quot;You are not connected to internet&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tMsgBox_2"/>
+  </node>
+  <node componentName="tMsgBox" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_3"/>
+    <elementParameter contextMode="false" field="TEXT" name="TITLE" value="&quot;Talend Open Studio&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="BUTTONS" value="0"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ICON" value="INFORMATION_MESSAGE"/>
+    <elementParameter contextMode="false" field="TEXT" name="QUESTION_TITLE" value="&quot;Window Title&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="QUESTION_LABEL" value="&quot;Question ?&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="MESSAGE" value="&quot;MySQL is started!&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tMsgBox_3"/>
+  </node>
+  <node componentName="tMsgBox" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="288">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_4"/>
+    <elementParameter contextMode="false" field="TEXT" name="TITLE" value="&quot;Talend Open Studio&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="BUTTONS" value="0"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ICON" value="INFORMATION_MESSAGE"/>
+    <elementParameter contextMode="false" field="TEXT" name="QUESTION_TITLE" value="&quot;Window Title&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="QUESTION_LABEL" value="&quot;Question ?&quot;"/>
+    <elementParameter contextMode="false" field="MEMO" name="MESSAGE" value="&quot;MySQL is not started&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tMsgBox_4"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tServerAlive_1" offsetLabelX="0" offsetLabelY="0" source="tServerAlive_1" target="tServerAlive_2">
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tServerAlive_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tServerAlive_1" target="tMsgBox_1">
+    <elementParameter contextMode="false" field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tServerAlive_1_SERVER_ALIVE_RESULT&quot;))&#10;"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="If1"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tServerAlive_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tServerAlive_1" target="tMsgBox_2">
+    <elementParameter contextMode="false" field="MEMO_JAVA" name="CONDITION" value="!((Boolean)globalMap.get(&quot;tServerAlive_1_SERVER_ALIVE_RESULT&quot;))"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="If2"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tServerAlive_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tServerAlive_2" target="tMsgBox_3">
+    <elementParameter contextMode="false" field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tServerAlive_2_SERVER_ALIVE_RESULT&quot;))"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="If3"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tServerAlive_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tServerAlive_2" target="tMsgBox_4">
+    <elementParameter contextMode="false" field="MEMO_JAVA" name="CONDITION" value="!((Boolean)globalMap.get(&quot;tServerAlive_2_SERVER_ALIVE_RESULT&quot;))"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="If4"/>
+  </connection>
+  <subjob>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tServerAlive_1"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tServerAlive_2"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_1"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_2"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_3"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMsgBox_4"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_50aecd12-879f-48b6-9797-1699c868fc81"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SgP4CigMaKoC4BnFQX4HTmMg3Y2S+eONyt1rkFl3TX+4I29n2qud164OwXJ2OjhmG0lcIgjJBrQr&#13;
+e2goFfvckw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2db1327b-067f-44ea-b321-a56afd89f36a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hIyOp9bEQLFmdIOnrDMaqiKHKkFMtKtbZ+jTF5PegEwB1wVZT7sqcSSORJLYa2RE2RdIyBszprOx&#13;
+lnKhisPn/Q==</DigestValue></Reference></SignedInfo><SignatureValue>GT6pB87fgjhMx/wZYA4xnuho2pXEU0tN3eWCjXR7GIFVGz1KS/0EqIcfnQHGj6UjMFRMKitDZtOZ&#13;
+S0Kzf9PamWa2CKeqs1ZVRaAa9nrUFZpacEZzT8gAJgFb2xfm+tuHHRmoBXZ3yoFXTwPtNuB5l28U&#13;
+NnFsb4ZxU9Ogwpk5xZ10VZyJNX3PCL/GevH2eTHOBkWpjTIMapg84CpmpdRxIyziZwPX17FYlNyt&#13;
+GmUbLxne9fzAQ5sGdQLHldA2mL6hPeQXQo8pP5sdPEyL8qYoqoVZoCWEerg560dWqhjFQjIeX5oq&#13;
+6MgIVcVIej3nKtzJz6Cx6KH8byhyYfmiJ5zQrA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2db1327b-067f-44ea-b321-a56afd89f36a" Target="#_50aecd12-879f-48b6-9797-1699c868fc81"><Timestamp>2021-03-23 06:07:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
