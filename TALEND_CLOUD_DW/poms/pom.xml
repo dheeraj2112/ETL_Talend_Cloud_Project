@@ -229,6 +229,7 @@
     <module>jobs/process/TalendDemo/t01_Compo/Databases/SP/tmysqlsp_0.1</module>
     <module>jobs/process/TalendDemo/t01_Compo/System_/tsystem_0.1</module>
     <module>jobs/process/TalendDemo/t01_Compo/File/Output/tfileoutputldif_0.1</module>
+    <module>jobs/process/Talend_Data_Prep/temp_tdp_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
